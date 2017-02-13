@@ -1,0 +1,35 @@
+/* Define variables */
+:root {
+    --color-prim: #D32F2F;
+    --color-sec: #1976D2;
+    --color-gray: #EEEEEE;
+}
+
+body {
+    background: var(--color-gray);
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* cssnext */
+a {
+    color: var(--color-sec);
+}
+
+a:hover {
+    color: color(var(--color-sec) a(80%));
+}
+
+/* pxtorem */
+h1 {
+    color: var(--color-prim);
+    font-size: 60px;
+}
+
+.nav {
+    display: flex;
+}

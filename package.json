@@ -1,0 +1,21 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "PostCSS workshop project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "gulp-webserver": "^0.9.1",
+    "install": "^0.8.7",
+    "npm": "^4.2.0",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-font-magician": "^1.6.0",
+    "postcss-pxtorem": "^4.0.0"
+  }
+}
